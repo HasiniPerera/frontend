@@ -110,7 +110,7 @@ function App() {
                       type="text"
                       value={newTitle}
                       onChange={(e) => setNewTitle(e.target.value)}
-                      placeholder="What's the task title?"
+                      placeholder="Task title"
                     />
                   </div>
                   <div className="todo-input-item">
@@ -119,7 +119,7 @@ function App() {
                       type="text"
                       value={newDescription}
                       onChange={(e) => setNewDescription(e.target.value)}
-                      placeholder="What's the task description?"
+                      placeholder="Task description"
                     />
                   </div>
                   <div className="todo-input-item">

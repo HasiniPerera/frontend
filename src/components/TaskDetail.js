@@ -61,7 +61,7 @@ const TaskDetail = ({ allTodos, setTodos, handleDeleteTodo, handleComplete }) =>
           </button>
           {!isEditing ? (
             <button onClick={() => setIsEditing(true)}>
-              <AiOutlineEdit className="icon" title="Edit Task" />
+              <AiOutlineEdit className="icon" title="Edit & Save Task" />
             </button>
           ) : (
             <button onClick={handleUpdateToDo}>
